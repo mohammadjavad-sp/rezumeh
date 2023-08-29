@@ -1,0 +1,284 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+  div.menu {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(246, 246, 246);
+    z-index: 999;
+  }
+  div.menu > nav {
+    width: inherit;
+    height: inherit;
+  }
+  div.menu > nav > ul {
+    width: 85%;
+    height: inherit;
+    margin-left: 3.5%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  div.menu > nav > ul > li {
+    margin: 0 20px;
+  }
+  div.menu > nav > ul > li > a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 300ms linear;
+  }
+  div.menu > nav > ul > li > a:hover {
+    border-bottom: 2px solid #445069;
+    color: black;
+  }
+  div.menu > nav > h3 {
+    width: 30%;
+
+    margin-right: 4.5%;
+  }
+  div.menu > nav > h3 > a {
+    color: black;
+    text-decoration: none;
+  }
+  div.menu > nav > h3 > a > span {
+    color: var(--rang);
+  }
+  div.container3 {
+    width: 90%;
+    padding-bottom: 5%;
+    box-shadow: 2px 2px 15px gray;
+    margin: 9.5% auto;
+    border-radius: 15px;
+    background-color: white;
+  }
+  div.container3 > div.header {
+    width: 100%;
+    height: 141px;
+    background-color: var(--rang);
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+  }
+  div.container3 > div.header > p {
+    line-height: 141px;
+    font-size: 250%;
+    font-weight: bolder;
+    color: white;
+  }
+  div.container3 > h3 {
+    margin: 3% 4%;
+    margin-bottom: 2%;
+    font-size: 130%;
+  }
+  div.container3 > h3 > span {
+    color: var(--rang);
+  }
+  div.container3 > div.box {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+  }
+  div.container3 > div.box > div.items {
+    width: 22%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.container3 > div.box > div.items > div.pic {
+    width: 50%;
+    height: 120px;
+    background-color: rgba(237, 237, 237, 0.515);
+    margin-top: 0;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8%;
+    transition: all 300ms linear;
+  }
+  div.container3 > div.box > div.items > div.pic:hover {
+    transform: translateY(-3%);
+    box-shadow: 0px 10px 10px lightgrey;
+  }
+  div.container3 > div.box > div.items > div.pic > img {
+    width: 50%;
+    height: 70%;
+  }
+  div.container3 > div.box > div.items > h4 {
+    margin-top: 8%;
+  }
+  div.container3 > div.box > div.items > p {
+    font-size: 85%;
+    text-align: center;
+    padding: 6%;
+    color: black;
+  }
+  div.container3 > div.moshtari {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.container3 > div.moshtari > img {
+    width: 8%;
+    margin: 0 3.3%;
+  }
+  div.container3 > div.feedback {
+    width: 97%;
+    height: 200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    padding-right: 3%;
+    padding-top: 1%;
+  }
+  div.container3 > div.feedback > div.item {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div.container3 > div.feedback > div.item > div.comment > div.img {
+    margin-top: -13%;
+    margin-right: -35%;
+  }
+  div.container3 > div.feedback > div.item > div.comment img {
+    border-radius: 50%;
+    width: 12%;
+    margin-right: 50%;
+  }
+  div.container3 > div.feedback > div.item > div.comment {
+    width: 94%;
+    height: 110px;
+    background-color: white;
+    border-top: 2px solid var(--rang) !important;
+    padding: 0 2.5%;
+    margin-top: -5%;
+    border: 1px solid lightgray;
+  }
+  div.container3 > div.feedback > div.item > div.comment > p {
+    font-size: 90%;
+    color: black;
+    font-weight: 500;
+  }
+  div.container3 > div.feedback > div.item > h5 {
+    margin-right: 48%;
+  }
+  div.container3 > div.feedback > div.item > h6 {
+    margin-top: 5%;
+    margin-right: -11%;
+    color: rgb(173, 173, 173);
+  }
+  div.container3 > div.feedback > div.item5 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div.container3 > div.feedback > div.item5 > div.comment > div.img {
+    margin-top: -13%;
+    margin-right: -35%;
+  }
+  div.container3 > div.feedback > div.item5 > div.comment img {
+    border-radius: 50%;
+    width: 12%;
+    margin-right: 50%;
+  }
+  div.container3 > div.feedback > div.item5 > div.comment {
+    width: 94%;
+    height: 110px;
+    background-color: white;
+    border-top: 2px solid var(--rang) !important;
+    margin-top: -5%;
+    padding: 0 2.5%;
+    border: 1px solid lightgray;
+  }
+  div.container3 > div.feedback > div.item5 > div.comment > p {
+    font-size: 90%;
+    color: black;
+    font-weight: 500;
+  }
+  div.container3 > div.feedback > div.item5 > h5 {
+    margin-right: 48%;
+    color: black;
+  }
+  div.container3 > div.feedback > div.item5 > h6 {
+    margin-top: 5%;
+    margin-right: -11%;
+    color: rgb(173, 173, 173);
+  }
+  div.container3 > div.neshan {
+    width: 57%;
+    height: 3%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 4%;
+    align-items: center;
+  }
+  div.container3 > div.neshan > div.neshan1 > a {
+    width: 300%;
+    text-align: center;
+    margin-right: -90%;
+    background-color: rgb(236, 236, 236);
+    display: inline-block;
+    padding: 5%;
+    height: 80%;
+  }
+  div.container3 > div.neshan > div.neshan2 > a {
+    background-color: rgb(236, 236, 236);
+    display: inline-block;
+    width: 300%;
+    text-align: center;
+    height: 80%;
+    margin-right: -90%;
+  }
+  div.container3 > div.neshan span {
+    color: black;
+  }
+  div.container3 > div.price {
+    width: 91%;
+    height: 473px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  div.container3 > div.price > div.plans {
+    width: 31%;
+    height: inherit;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 0;
+    transition: all 300ms linear;
+  }
+  div.container3 > div.price > div.plans:hover {
+    transform: translateY(-3%);
+    box-shadow: 0px 10px 10px lightgrey;
+  }
+
+  div.container3 > div.price > div.plans > h1 {
+    font-family: sans;
+    font-size: 250%;
+  }
+
+  div.container3 > div.price > div.plans > h6 {
+    color: rgb(189, 189, 189);
+  }
+  div.container3 > div.price > div.plans > a {
+    text-decoration: none;
+    padding: 1% 7%;
+    background-color: var(--rang);
+    border-radius: 5%;
+    color: white;
+  }
+  div.container3 > div.price > div.plans > p {
+    color: black;
+    font-size: 90%;
+  }
+}

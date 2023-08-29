@@ -1,0 +1,172 @@
+@media (max-width: 576px) {
+  div.menu {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--rang);
+    z-index: 999;
+  }
+  div.menu > nav {
+    width: inherit;
+    height: inherit;
+    display: flex;
+  }
+  div.menu > nav > ul {
+    width: 50%;
+    height: inherit;
+    display: none;
+    margin-right: 28%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  div.menu > nav > ul > li {
+    margin: 0 20px;
+    display: none;
+  }
+  div.menu > nav > ul > li > a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 300ms linear;
+  }
+  div.menu > nav > ul > li > a:hover {
+    border-bottom: 2px solid #445069;
+    color: black;
+  }
+
+  div.menu > nav > h3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 2%;
+  }
+  div.menu > nav > h3 > a {
+    color: white;
+    text-decoration: none;
+  }
+  div.menu > nav > h3 > a > span {
+    color: white;
+  }
+  div.menu > nav > a {
+    margin-top: 0.2%;
+    margin-left: 4%;
+    font-size: 22px;
+    color: white;
+  }
+  div.menu > nav > a > span > div.taskbar {
+    width: 0;
+    height: 0;
+    background-color: aquamarine;
+    transition: all 300ms linear;
+    margin-top: 5.8%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    transform-origin: top left;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  div.menu > nav > a > span:hover > div.taskbar {
+    width: 200px;
+    height: 100vh;
+    background-color: var(--rang);
+    transform: scale(1);
+    padding-top: 2%;
+  }
+  div.menu > nav > a > span > div.taskbar > p {
+    text-align: center;
+    margin-top: 11%;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    width: 40%;
+    height: 7%;
+  }
+  div.menu > nav > a > span > div.taskbar > p:hover {
+    border-bottom: 2px solid white;
+  }
+  div.container4 {
+    width: 94%;
+    padding-bottom: 5%;
+    box-shadow: 2px 2px 15px gray;
+    margin: 10% auto;
+    border-radius: 15px;
+    background-color: white;
+  }
+  div.container4 > div.header {
+    width: 100%;
+    height: 141px;
+    background-color: var(--rang);
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+  }
+  div.container4 > div.header > p {
+    line-height: 141px;
+    font-size: 250%;
+    font-weight: bolder;
+    color: white;
+  }
+  div.container4 > div.blogs {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 5% auto;
+  }
+  div.container4 > div.blogs > div.content {
+    width: 100%;
+    border: 0.5px solid lightgrey;
+
+    margin-bottom: 3%;
+  }
+  div.container4 > div.blogs > div.content > div.ax {
+    width: 100%;
+
+    display: flex;
+    position: relative;
+  }
+  div.container4 > div.blogs > div.content > div.ax > img {
+    width: 100%;
+  }
+  div.container4 > div.blogs > div.content > div.ax > div.day {
+    width: 10%;
+
+    background-color: white;
+
+    position: absolute;
+    top: 7%;
+    right: 86%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 145%;
+    padding-top: 1%;
+  }
+  div.container4 > div.blogs > div.content > div.ax > div.day > P {
+    color: var(--rang);
+    font-family: sans;
+    font-size: 85%;
+  }
+  div.container4 > div.blogs > div.content > h6 {
+    text-align: center;
+    margin-top: 3%;
+    color: rgb(161, 161, 161);
+  }
+  div.container4 > div.blogs > div.content > p {
+    text-align: center;
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+}

@@ -1,0 +1,269 @@
+@media (min-width: 576px) and (max-width: 768px) {
+  div.menu {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    background-color: var(--rang);
+    z-index: 999;
+  }
+  div.menu > nav {
+    width: inherit;
+    height: inherit;
+    display: flex;
+  }
+  div.menu > nav > ul {
+    width: 50%;
+    height: inherit;
+    display: none;
+    margin-right: 28%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  div.menu > nav > ul > li {
+    margin: 0 20px;
+    display: none;
+  }
+  div.menu > nav > ul > li > a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 300ms linear;
+  }
+  div.menu > nav > ul > li > a:hover {
+    border-bottom: 2px solid #445069;
+    color: black;
+  }
+
+  div.menu > nav > h3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+  }
+  div.menu > nav > h3 > a {
+    color: white;
+    text-decoration: none;
+  }
+  div.menu > nav > h3 > a > span {
+    color: white;
+  }
+  div.menu > nav > a {
+    margin-top: 0.2%;
+    margin-left: 4%;
+    font-size: 22px;
+    color: white;
+  }
+  div.menu > nav > a > span > div.taskbar {
+    width: 0;
+    height: 0;
+    background-color: aquamarine;
+    transition: all 300ms linear;
+    margin-top: 5.2%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    transform-origin: top left;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  div.menu > nav > a > span:hover > div.taskbar {
+    width: 200px;
+    height: 100vh;
+    background-color: var(--rang);
+    transform: scale(1);
+    padding-top: 2%;
+  }
+  div.menu > nav > a > span > div.taskbar > p {
+    text-align: center;
+    margin-top: 11%;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    width: 40%;
+    height: 7%;
+  }
+  div.menu > nav > a > span > div.taskbar > p:hover {
+    border-bottom: 2px solid white;
+  }
+  div.container {
+    width: 95%;
+    height: 250vh;
+    background-color: white;
+    margin: 50px auto;
+
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 15px;
+  }
+  div.container > div.header {
+    width: 100%;
+    height: 110vh;
+    background-color: var(--rang);
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.container > div.header > div.image {
+    width: 35%;
+    height: 220px;
+
+    margin-top: 6%;
+    background: url(../media/me.png) top center no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 5px gray;
+    border: 2px solid gray;
+    transition: all 300ms linear;
+  }
+
+  div.container > div.image:hover {
+    box-shadow: 3px 3px 20px gray;
+  }
+  div.container > div.header > div.bio {
+    width: 67%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.container > div.header > div.bio > h1,
+  p {
+    color: white;
+  }
+
+  div.container > div.header > div.bio > div.social {
+    width: 180px;
+    height: 40px;
+
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+  }
+  div.container > div.header > div.bio > div.social > div.items {
+    width: 37px;
+    height: 37px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 2px;
+    text-align: center;
+    padding-top: 2%;
+  }
+  div.container > div.header > div.bio > div.social > div.items span {
+    color: gray;
+    transition: all 200ms linear;
+  }
+  div.container > div.header > div.bio > div.social > div.items:hover span {
+    transform: scale(1.3);
+  }
+  div.container
+    > div.header
+    > div.bio
+    > div.social
+    > div.items:nth-of-type(1):hover
+    span {
+    color: #35a8e3;
+  }
+  div.container
+    > div.header
+    > div.bio
+    > div.social
+    > div.items:nth-of-type(2):hover
+    span {
+    color: #F60136;
+  }
+  div.container
+    > div.header
+    > div.bio
+    > div.social
+    > div.items:nth-of-type(3):hover
+    span {
+    color: #4867AA;
+  }
+  div.container
+    > div.header
+    > div.bio
+    > div.social
+    > div.items:nth-of-type(4):hover
+    span {
+    color: #1DA1F2;
+  }
+  div.container > div.footer {
+    width: 100%;
+    height: 55%;
+
+    display: flex;
+  }
+  div.container > div.footer > div.right {
+    width: 80%;
+    height: 208px;
+    margin-top: 5%;
+    margin-right: 5%;
+    position: absolute;
+  }
+
+  div.container > div.footer > div.right > h3 > span {
+    color: #445069;
+  }
+  div.container > div.footer > div.right > p {
+    font-size: 16px;
+    margin: 15px 0;
+    color: black;
+  }
+  div.container > div.footer > div.right > a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 15px;
+    box-shadow: 1px 1px 3px gray;
+    transition: all 400ms linear;
+
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: bolder;
+    color: black;
+  }
+  div.container > div.footer > div.right > a:hover {
+    box-shadow: 2px 2px 5px grey;
+  }
+  div.container > div.footer > div.center {
+    display: flex;
+    flex-flow: column wrap;
+
+    row-gap: 6%;
+    margin-top: 45%;
+    margin-right: 7%;
+  }
+  div.container > div.footer > div.center > p {
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+  }
+  div.container > div.footer > div.left {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 6%;
+    margin-top: 45%;
+    margin-right: 20%;
+  }
+  div.container > div.footer > div.left > p {
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div.container > div.footer > div.left > p > a {
+    text-decoration: none;
+    color: var(--rang);
+    font-size: 15px;
+  }
+  div.container > div.test {
+    display: none;
+  }
+}
